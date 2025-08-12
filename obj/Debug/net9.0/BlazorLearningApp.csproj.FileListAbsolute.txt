@@ -65,8 +65,6 @@ C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\l8etkwq34g-h1s4sie4z3.gz
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\bptp1s2xz6-63fj8s7r0e.gz
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\rw4sw1gz1l-0j3bgjxly4.gz
-C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\cby5qfpdw5-2s915z5k73.gz
-C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\lwgd62oz3m-2s915z5k73.gz
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -118,3 +116,15 @@ C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\bin\Debug\net9.0
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\BlazorLearningApp.csproj.AssemblyReference.cache
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\BlazorLe.844030ED.Up2Date
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\BlazorLearningApp.sourcelink.json
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\bin\Debug\net9.0\BlazorBootstrap.dll
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\yxfdm33bor-63oqyoiiv4.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\refgsao5tb-5vmds449nb.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\d5o4a4wkq9-ct0ej5e0q0.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\sismm8xg1l-ezlxc6gzv3.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\q8v6i1uv3e-pisakkcwob.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\36w3eu0hkb-j8zp7bt7w3.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\mfzx4sb2rv-79hai7knhw.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\eojifsclv0-7t9tbfaemk.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\cby5qfpdw5-onhonaggcf.gz
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\obj\Debug\net9.0\compressed\lwgd62oz3m-2s915z5k73.gz
