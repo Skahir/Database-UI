@@ -85,7 +85,7 @@ C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\boot
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\nando\source\repos\BlazorLearningApp\BlazorLearningApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js

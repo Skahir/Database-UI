@@ -1,0 +1,39 @@
+﻿@page "/items"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BlazorLearningApp.Models
+@using BlazorLearningApp.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<BlazorLearningApp.Data.BlazorLearningAppContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="items/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Item">
+    <PropertyColumn Property="item => item.Name" />
+    <PropertyColumn Property="item => item.Location" />
+    <PropertyColumn Property="item => item.Amount" />
+    <PropertyColumn Property="item => item.Kilograms" />
+
+    <TemplateColumn Context="item">
+        <a href="@($"items/edit?id={item.Id}")">Edit</a> |
+        <a href="@($"items/details?id={item.Id}")">Details</a> |
+        <a href="@($"items/delete?id={item.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private BlazorLearningAppContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

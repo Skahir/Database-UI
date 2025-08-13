@@ -1,0 +1,52 @@
+﻿@page "/items/details"
+@using Microsoft.EntityFrameworkCore
+@using BlazorLearningApp.Models
+@inject IDbContextFactory<BlazorLearningApp.Data.BlazorLearningAppContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Item</h2>
+    <hr />
+    @if (item is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Name</dt>
+            <dd class="col-sm-10">@item.Name</dd>
+            <dt class="col-sm-2">Location</dt>
+            <dd class="col-sm-10">@item.Location</dd>
+            <dt class="col-sm-2">Amount</dt>
+            <dd class="col-sm-10">@item.Amount</dd>
+            <dt class="col-sm-2">Kilograms</dt>
+            <dd class="col-sm-10">@item.Kilograms</dd>
+        </dl>
+        <div>
+            <a href="@($"/items/edit?id={item.Id}")">Edit</a> |
+            <a href="@($"/items")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Item? item;
+
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        item = await context.Item.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (item is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}
