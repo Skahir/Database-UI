@@ -14,7 +14,14 @@
     <a href="items/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Item">
+<div>
+    <form action="/items" data-enhance data-permanent>
+        <input type="search" name="NameFilter" />
+        <input type="submit" value="Search" />
+    </form>
+</div>
+
+<QuickGrid Class="table" Items="FilteredItems">
     <PropertyColumn Property="item => item.Name" />
     <PropertyColumn Property="item => item.Location" />
     <PropertyColumn Property="item => item.Amount" />
@@ -29,6 +36,12 @@
 
 @code {
     private BlazorLearningAppContext context = default!;
+
+    [SupplyParameterFromQuery]
+    private string? NameFilter { get; set; }
+
+    private IQueryable<Item> FilteredItems =>
+        context.Item.Where(m => m.Name!.Contains(NameFilter ?? string.Empty));
 
     protected override void OnInitialized()
     {
